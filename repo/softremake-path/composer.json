@@ -1,0 +1,19 @@
+{
+	"name": "softremake/path",
+	"type": "library",
+	"description": "Directory listing and other file operations",
+	"keywords": ["file", "directory"],
+	"homepage": "http://softremake.com",
+	"license": "MIT",
+	"authors": [
+		{"name": "Michael F", "email": "softremake@gmail.com"}
+	],
+	"autoload": {
+		"psr-4": {
+			"Softremake\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.5"
+	}
+}

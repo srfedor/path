@@ -1,0 +1,13 @@
+{
+    "repositories": [
+        { "type": "path", "url": "repo/softremake-path"  }
+    ],
+
+    "require": {
+        "kint-php/kint": "^1.0",
+        "softremake/path": "@dev"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.3"
+    }
+}
